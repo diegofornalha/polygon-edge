@@ -3,9 +3,8 @@ module github.com/0xPolygon/polygon-sdk
 go 1.14
 
 require (
-	github.com/VividCortex/gohistogram v1.0.0 // indirect
 	github.com/btcsuite/btcd v0.21.0-beta
-	github.com/go-kit/kit v0.9.0
+	github.com/go-kit/kit v0.10.0
 	github.com/golang/protobuf v1.5.2
 	github.com/google/uuid v1.1.4
 	github.com/gorilla/websocket v1.4.2
@@ -17,13 +16,13 @@ require (
 	github.com/hashicorp/vault/api v1.3.0
 	github.com/imdario/mergo v0.3.7
 	github.com/libp2p/go-libp2p v0.14.0
-	github.com/libp2p/go-libp2p-core v0.8.5
+	github.com/libp2p/go-libp2p-core v0.11.0
 	github.com/libp2p/go-libp2p-kbucket v0.4.7
 	github.com/libp2p/go-libp2p-noise v0.2.0
-	github.com/libp2p/go-libp2p-pubsub v0.5.0
+	github.com/libp2p/go-libp2p-pubsub v0.6.1
 	github.com/mitchellh/cli v1.0.0
-	github.com/multiformats/go-multiaddr v0.3.1
-	github.com/prometheus/client_golang v1.4.0
+	github.com/multiformats/go-multiaddr v0.4.0
+	github.com/prometheus/client_golang v1.10.0
 	github.com/ryanuber/columnize v2.1.2+incompatible
 	github.com/stretchr/testify v1.7.0
 	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
